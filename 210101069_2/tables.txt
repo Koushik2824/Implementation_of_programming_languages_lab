@@ -1,0 +1,53 @@
+The symbol table:
+SYMBOL         |VALUE         |CRITICAL SECTION NAME        |RELATIVE?     
+---------------------------------------------
+A              |0             |COPY                         |0             
+B              |3             |COPY                         |0             
+BUFEND         |4147          |COPY                         |1             
+BUFFER         |51            |COPY                         |1             
+CLOOP          |3             |COPY                         |1             
+COPY           |4147          |COPY                         |0             
+ENDFIL         |23            |COPY                         |1             
+F              |6             |COPY                         |0             
+FIRST          |0             |COPY                         |1             
+L              |2             |COPY                         |0             
+LENGTH         |45            |COPY                         |1             
+MAXLEN         |4096          |COPY                         |0             
+PC             |8             |COPY                         |0             
+RETADR         |42            |COPY                         |1             
+S              |4             |COPY                         |0             
+SW             |9             |COPY                         |0             
+T              |5             |COPY                         |0             
+X              |1             |COPY                         |0             
+A              |0             |RDREC                        |0             
+B              |3             |RDREC                        |0             
+EXIT           |32            |RDREC                        |1             
+F              |6             |RDREC                        |0             
+L              |2             |RDREC                        |0             
+MAXLEN         |40            |RDREC                        |1             
+PC             |8             |RDREC                        |0             
+RDREC          |43            |RDREC                        |0             
+RLOOP          |9             |RDREC                        |1             
+S              |4             |RDREC                        |0             
+SW             |9             |RDREC                        |0             
+T              |5             |RDREC                        |0             
+X              |1             |RDREC                        |0             
+A              |0             |WRREC                        |0             
+B              |3             |WRREC                        |0             
+F              |6             |WRREC                        |0             
+L              |2             |WRREC                        |0             
+PC             |8             |WRREC                        |0             
+S              |4             |WRREC                        |0             
+SW             |9             |WRREC                        |0             
+T              |5             |WRREC                        |0             
+WLOOP          |6             |WRREC                        |1             
+WRREC          |28            |WRREC                        |0             
+X              |1             |WRREC                        |0             
+-----------------------------------------------
+The literal table:
+LITERAL        |VALUE         |CRITICAL SECTION NAME
+---------------------------------------------
+C'EOF'         |48            |COPY          
+X'F1'          |39            |RDREC         
+X'05'          |27            |WRREC         
+-----------------------------------------------

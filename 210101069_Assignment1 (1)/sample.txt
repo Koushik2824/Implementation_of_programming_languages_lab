@@ -1,0 +1,19 @@
+    SAMPLE START 500
+    INLOOP TD INDEV 
+           JEQ INLOOP
+           RD INDEV
+           STCH DATA
+    .
+    .
+    .
+    OUTLP TD OUTDEV
+          JEQ OUTLP
+          LDCH DATA
+          WD OUTDEV
+    .
+    .
+    .
+    
+INDEV BYTE X'F1'
+OUTDEV BYTE X'05'
+DATA RESB 1          

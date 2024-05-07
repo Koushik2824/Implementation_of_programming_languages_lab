@@ -1,0 +1,2 @@
+1.input.txt are inputs to sic_assembler.cpp and sic_assembler_2.cpp
+2.output.txt,output2.txt,output3.txt are inputs to sic_linkingloader.cpp

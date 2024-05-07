@@ -1,0 +1,11 @@
+Each index has list of Nodes, Each Node has token_specifier 
+I have used dj2b hash function, to find the index of each identifier and constants(0 for integer and 1 for real, 2 for undefined)
+Index          
+5              -->[100       :type : 0   :is_identifier : 0   :is_initialized:1   ]
+9              -->[VARIANCE  :type : 0   :is_identifier : 1   :is_initialized:1   ]-->[MEAN      :type : 0   :is_identifier : 1   :is_initialized:1   ]
+17             -->[VALUE     :type : 0   :is_identifier : 1   :is_initialized:1   ]
+29             -->[SUMSQ     :type : 0   :is_identifier : 1   :is_initialized:1   ]
+56             -->[0         :type : 0   :is_identifier : 0   :is_initialized:1   ]
+57             -->[1         :type : 0   :is_identifier : 0   :is_initialized:1   ]
+59             -->[STATS     :type : 2   :is_identifier : 1   :is_initialized:0   ]
+81             -->[I         :type : 0   :is_identifier : 1   :is_initialized:1   ]-->[SUM       :type : 0   :is_identifier : 1   :is_initialized:1   ]

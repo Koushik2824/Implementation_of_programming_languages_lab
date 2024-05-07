@@ -1,0 +1,13 @@
+Each index has list of Nodes, Each Node has token_specifier and token_code, both are printing below for all Nodes
+I have used dj2b hash function, to find the index of each identifier and constants
+Index          
+12             -->        #0    23
+13             -->        #1    23
+20             -->     ^MEAN    22
+22             -->    ^STATS    22
+40             --> ^VARIANCE    22
+48             -->      ^SUM    22
+80             -->    ^VALUE    22
+84             -->        ^I    22
+89             -->      #100    23
+92             -->    ^SUMSQ    22

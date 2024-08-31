@@ -43,7 +43,7 @@ This repository contains solutions to four programming assignments for the CS-34
 ## Running & Testing Instructions
 
 1. Clone the repository:
-`git clone [<repository_url>](https://github.com/Koushik2824/Implementation_of_programming_languages_lab.git)`
+`git clone (https://github.com/Koushik2824/Implementation_of_programming_languages_lab.git)`
 
 
 2. Verify the output against expected results provided in the assignment description or sample outputs.
